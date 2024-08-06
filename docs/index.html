@@ -108,8 +108,7 @@
 
         <section id="contact" class="container">
             <h2>Contact</h2>
-            <!-- Using mailto in form action -->
-            <form action="https://api.mailslurp.com/forms" method="post">
+            <form id="contactForm" method="POST" action="/send-email">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -136,5 +135,4 @@
 
     <script src="scripts.js"></script>
 </body>
-
 </html>
