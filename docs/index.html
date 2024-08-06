@@ -108,7 +108,8 @@
 
         <section id="contact" class="container">
             <h2>Contact</h2>
-            <form id="contactForm" method="POST" action="#">
+            <!-- Using mailto in form action -->
+            <form id="contactForm" action="mailto:sakethssdev@gmail.com" method="POST" enctype="text/plain">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
