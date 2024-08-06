@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Surya Saketh Devulapalli - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Sai Surya Saketh Devulapalli</h1>
+            <p class="location">Visakhapatnam</p>
+            <p class="contact-info">
+                <span>Phone:</span> <a href="tel:+916303679684">+91 6303679684</a> |
+                <span>Email:</span> <a href="mailto:sakethssdev@gmail.com">sakethssdev@gmail.com</a> |
+                <span>GitHub:</span> <a href="https://github.com/sakethdss" target="_blank">sakethdss</a>
+            </p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#extracurricular">Extracurricular</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="summary" class="container">
+            <h2>Summary</h2>
+            <p>I believe that curiosity, innovative thinking, and problem-solving combined with continuous improvement are the perfect blend for success. I explored the field of AI/ML and front-end development through the opportunities I had. I indulge in Java, Python, and C programming.</p>
+        </section>
+
+        <section id="education" class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>GITAM University Vizag</strong><br>
+                    Bachelor of Technology in Computer Science Engineering, CGPA: 7.9<br>
+                    Oct 2021–Present
+                </li>
+                <li><strong>Sri Venkateshwara College Vizag</strong><br>
+                    APBIE 12th board, Secured a percentage of 98.2<br>
+                    June 2019–Sept 2021
+                </li>
+                <li><strong>De Paul School Vizag</strong><br>
+                    ICSE 10th board, Secured a percentage of 94<br>
+                    June 2008–May 2019
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience" class="container">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>CNDE at IIT Madras</strong><br>
+                    Intern, Remote, May 2024–Present<br>
+                    Designed and developed a website for IITM CNDE startup, i-Genie, using Figma, HTML/CSS, and JS.
+                </li>
+                <li><strong>Caring Machines</strong><br>
+                    AI/ML Intern, Remote, May 2024–Present<br>
+                    Used machine learning algorithms for classifying student essays.
+                </li>
+                <li><strong>Techno Media Software Solutions (TMSS)</strong><br>
+                    Programming Intern, Remote, June 2023–August 2023<br>
+                    Worked on real-time industry problems with Java and developed a lead generation website for a real estate agency.
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Java (DSA, OOPS), Python (Pandas, NumPy), C programming</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JS, Figma</li>
+                <li><strong>Databases:</strong> MySQL, Oracle SQL Developer</li>
+                <li><strong>Machine Learning:</strong> Regression, NLP, Clustering (Self-paced learning), Data analysis (Self-paced learning)</li>
+                <li><strong>Soft Skills:</strong> Communication, Creativity, Leadership</li>
+            </ul>
+        </section>
+
+        <section id="publications" class="container">
+            <h2>Publications</h2>
+            <ul>
+                <li>Published research paper in ICPCSN 2024: Paper Id- 605; Paper name: Digital Verification: An Efficient Fraud Document Detection for Insurance Claims using IoT and ML Approaches.</li>
+            </ul>
+        </section>
+
+        <section id="extracurricular" class="container">
+            <h2>Extracurricular Endeavors</h2>
+            <ul>
+                <li>Creative writer by passion. Nominated among the top 20 in Asia-wide writing contest by IFP ('22, '23).</li>
+                <li>Writer/Film Maker. Key member of Film Club (G-Studio). Made several short films as a co-director managing cast and crew.</li>
+                <li>As part of Gitam ACM Student Chapter’s core team, I took part in conducting events and creating content.</li>
+                <li>Participated in several hackathons and gained valuable insights into competitive coding.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form id="contactForm" method="POST" action="/send-email">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="formMessage" class="hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sai Surya Saketh Devulapalli. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
