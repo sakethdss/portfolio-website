@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Surya Saketh Devulapalli - Portfolio</title>  
+    <title>Sai Surya Saketh Devulapalli - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
@@ -56,35 +56,22 @@
         <div class="work-block">
             <h3>Caring Machines (Volunteer-Based Research)</h3>
             <p>May 2024 – Present (Remote)</p>
-            <button class="toggle-button" onclick="toggleDetails('caring')">Show Details</button>
-            <ul id="caring" class="hidden">
-                <li>Progressing towards a model to classify over 17,000 student essays using advanced NLP and ML techniques.</li>
-                <li>Evaluated unsupervised ML algorithms for pattern recognition and data analysis.</li>
-                <li>Devised methods to assess essays based on a rubric with 6 criteria.</li>
-                <li>Optimized data analysis and pre-processing with Python libraries, reducing redundancies by 30%.</li>
-            </ul>
+            <button class="toggle-button" onclick="showDetails('caring')">Show Details</button>
+            <div id="caring"></div>
         </div>
 
         <div class="work-block">
             <h3>CNDE at IIT Madras</h3>
             <p>May 2024 – Aug 2024 (Remote)</p>
-            <button class="toggle-button" onclick="toggleDetails('cnde')">Show Details</button>
-            <ul id="cnde" class="hidden">
-                <li>Architected 100+ web pages and revamped 3 existing dashboards to enhance user experience.</li>
-                <li>Reengineered web designs into mobile layouts for the iGenie mobile application.</li>
-                <li>Converted design prototypes into fully functional web pages using React.</li>
-            </ul>
+            <button class="toggle-button" onclick="showDetails('cnde')">Show Details</button>
+            <div id="cnde"></div>
         </div>
 
         <div class="work-block">
             <h3>Techno Media Software Solutions (TMSS)</h3>
             <p>June 2023 – Aug 2023 (Remote)</p>
-            <button class="toggle-button" onclick="toggleDetails('tmss')">Show Details</button>
-            <ul id="tmss" class="hidden">
-                <li>Augmented 3 applications using Python (Tkinter) and Java.</li>
-                <li>Conducted web scraping to extract data from 5 websites.</li>
-                <li>Delivered 2 lead-gathering platforms within a 3-week timeframe.</li>
-            </ul>
+            <button class="toggle-button" onclick="showDetails('tmss')">Show Details</button>
+            <div id="tmss"></div>
         </div>
     </section>
 
