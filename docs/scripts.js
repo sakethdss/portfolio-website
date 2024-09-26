@@ -6,3 +6,4 @@ function toggleDetails(id) {
         element.classList.add('hidden');
     }
 }
+ 
