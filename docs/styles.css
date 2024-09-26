@@ -66,20 +66,20 @@ section {
     text-align: left;
 }
 
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.skills-description {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
-.skill {
-    margin: 10px;
-    text-align: center;
+.skills-description ul {
+    list-style-type: none;
 }
 
-.skill img {
-    width: 80px;
-    height: 80px;
+.skills-description li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
 }
 
 .chart-container {
