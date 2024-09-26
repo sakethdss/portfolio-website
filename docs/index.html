@@ -1,1 +1,130 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Portfolio</title><link rel="stylesheet" href="styles.css"><script defer src="script.js"></script></head><body><header><nav><ul><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul></nav></header><section id="hero"><h1>Hello, I'm [Your Name]</h1><p>Software Developer | Web Enthusiast | Tech Explorer</p><a href="#projects" class="cta">View My Work</a></section><section id="about"><h2>About Me</h2><p>I’m a software developer with a passion for creating beautiful and functional websites. I enjoy learning new technologies and applying them in real-world projects.</p></section><section id="projects"><h2>Projects</h2><div class="project-card"><h3>Project 1</h3><p>Details about Project 1.</p></div><div class="project-card"><h3>Project 2</h3><p>Details about Project 2.</p></div></section><section id="skills"><h2>Skills</h2><ul><li>JavaScript</li><li>HTML & CSS</li><li>React.js</li><li>Python</li></ul></section><section id="contact"><h2>Contact</h2><p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p></section><footer><p>&copy; 2024 [Your Name]. All rights reserved.</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Surya Saketh Devulapalli - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#extracurricular">Extracurricular</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Sai Surya Saketh Devulapalli</h1>
+        <p>Software Developer | Web Enthusiast | Machine Learning Researcher</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm currently pursuing my Bachelor's in Computer Science Engineering at GITAM University, with a focus on developing efficient solutions in web development and machine learning. I have a keen interest in applying emerging technologies to solve real-world problems.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-block">
+            <h3>GITAM University, Visakhapatnam</h3>
+            <p>Bachelor of Technology in Computer Science Engineering, CGPA: 7.9/10</p>
+            <p>Oct 2021 – Present</p>
+        </div>
+        <div class="education-block">
+            <h3>Sri Venkateshwara College, Visakhapatnam</h3>
+            <p>APBIE 12th Board, Scored: 98.2%</p>
+            <p>June 2019 – Sept 2021</p>
+        </div>
+        <div class="education-block">
+            <h3>De Paul School, Visakhapatnam</h3>
+            <p>ICSE 10th Board, Attained: 94%</p>
+            <p>June 2008 – May 2019</p>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <div class="work-block">
+            <h3>Caring Machines (Volunteer-Based Research)</h3>
+            <p>May 2024 – Present (Remote)</p>
+            <button class="toggle-button" onclick="toggleDetails('caring')">Show Details</button>
+            <ul id="caring" class="hidden">
+                <li>Progressing towards a model to classify over 17,000 student essays using advanced NLP and ML techniques.</li>
+                <li>Evaluated unsupervised ML algorithms for pattern recognition and data analysis.</li>
+                <li>Devised methods to assess essays based on a rubric with 6 criteria.</li>
+                <li>Optimized data analysis and pre-processing with Python libraries, reducing redundancies by 30%.</li>
+            </ul>
+        </div>
+
+        <div class="work-block">
+            <h3>CNDE at IIT Madras</h3>
+            <p>May 2024 – Aug 2024 (Remote)</p>
+            <button class="toggle-button" onclick="toggleDetails('cnde')">Show Details</button>
+            <ul id="cnde" class="hidden">
+                <li>Architected 100+ web pages and revamped 3 existing dashboards to enhance user experience.</li>
+                <li>Reengineered web designs into mobile layouts for the iGenie mobile application.</li>
+                <li>Converted design prototypes into fully functional web pages using React.</li>
+            </ul>
+        </div>
+
+        <div class="work-block">
+            <h3>Techno Media Software Solutions (TMSS)</h3>
+            <p>June 2023 – Aug 2023 (Remote)</p>
+            <button class="toggle-button" onclick="toggleDetails('tmss')">Show Details</button>
+            <ul id="tmss" class="hidden">
+                <li>Augmented 3 applications using Python (Tkinter) and Java.</li>
+                <li>Conducted web scraping to extract data from 5 websites.</li>
+                <li>Delivered 2 lead-gathering platforms within a 3-week timeframe.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java (Advanced)</li>
+            <li>Python (Advanced)</li>
+            <li>C (Advanced)</li>
+            <li>SQL (Proficient)</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React.js, Node.js</li>
+            <li>MySQL, Oracle SQL Developer</li>
+            <li>Machine Learning: Data Pre-processing, Unsupervised Learning, Classification</li>
+        </ul>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <p>Published research paper in ICPCSN 2024: Digital Verification: An Efficient Fraud Document Detection for Insurance Claims Using IoT and ML Approaches (Paper ID 605).</p>
+    </section>
+
+    <section id="extracurricular">
+        <h2>Extracurricular Endeavors</h2>
+        <ul>
+            <li>Creative writer; authored short stories securing a top 20 position in the Asia-wide IFP writing contest in 2022 and 2023.</li>
+            <li>Senior Writer/Filmmaker at G-Studio, GITAM Film Club, directing and co-directing short films.</li>
+            <li>Organized events and curated content for the GITAM ACM Student Chapter’s magazine as a core team member.</li>
+            <li>Led a team to the top 10 in the Smart India Hackathon, surpassing 75 teams.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sakethssdev@gmail.com">sakethssdev@gmail.com</a></p>
+        <p>Phone: +91 6303679684</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sai Surya Saketh Devulapalli. All rights reserved.</p>
+    </footer>
+</body>
+</html>
