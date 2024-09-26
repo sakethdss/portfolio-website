@@ -97,3 +97,21 @@ footer {
 .work-block, .education-block {
     margin-bottom: 20px;
 }
+
+.show-more-btn {
+    background-color: #0096c7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.show-more-btn:hover {
+    background-color: #0077b6;
+}
+
+.more-details {
+    display: none;
+}
