@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sai Surya Saketh Devulapalli - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -35,37 +36,55 @@
 
     <section id="work-experience">
         <h2>Work Experience</h2>
+        <!-- Caring Machines Internship -->
         <div class="work-block">
             <h3>Caring Machines (Volunteer-Based Research)</h3>
             <p>Remote — May 2024 – Present</p>
             <ul>
-                <li>Progressed towards a model to classify over <strong>17,000</strong> student essays using advanced NLP and ML techniques.</li>
-                <li>Investigated and evaluated <strong>3</strong> unsupervised ML algorithms for their proficiency in pattern recognition and data analysis.</li>
-                <li>Devised methods to assess essays based on a rubric with <strong>6</strong> distinct criteria.</li>
-                <li>Optimized data analysis and pre-processing with Python libraries, minimizing redundancies by <strong>30%</strong>.</li>
+                <li>Primary task: Classifying student essays using advanced NLP and ML techniques.</li>
             </ul>
+            <button class="show-more-btn" onclick="toggleDetails('caring-details', this)">Show More</button>
+            <div id="caring-details" class="more-details">
+                <ul>
+                    <li>Investigated and evaluated <strong>3</strong> unsupervised ML algorithms for pattern recognition and data analysis.</li>
+                    <li>Devised methods to assess essays based on a rubric with <strong>6</strong> distinct criteria.</li>
+                    <li>Optimized data analysis and pre-processing with Python libraries, minimizing redundancies by <strong>30%</strong>.</li>
+                </ul>
+            </div>
         </div>
 
+        <!-- CNDE at IIT Madras Internship -->
         <div class="work-block">
             <h3>CNDE at IIT Madras</h3>
             <p>Remote — May 2024 – Aug 2024</p>
             <ul>
-                <li>Architected <strong>100+</strong> web pages for CNDE and revamped <strong>3</strong> existing dashboards to elevate user experience.</li>
-                <li>Diagnosed <strong>4</strong> platforms to identify issues and enhanced user satisfaction by <strong>40%</strong>.</li>
-                <li>Reengineered <strong>15</strong> web designs into mobile UI layouts.</li>
-                <li>Converted <strong>5</strong> design prototypes into fully functional web pages using React.</li>
+                <li>Primary task: Architecting web pages and improving user experience for CNDE.</li>
             </ul>
+            <button class="show-more-btn" onclick="toggleDetails('cnde-details', this)">Show More</button>
+            <div id="cnde-details" class="more-details">
+                <ul>
+                    <li>Architected <strong>100+</strong> web pages and revamped <strong>3</strong> dashboards.</li>
+                    <li>Diagnosed <strong>4</strong> platforms to enhance user satisfaction by <strong>40%</strong>.</li>
+                    <li>Converted <strong>5</strong> design prototypes into fully functional web pages using React.</li>
+                </ul>
+            </div>
         </div>
 
+        <!-- Techno Media Software Solutions Internship -->
         <div class="work-block">
             <h3>Techno Media Software Solutions (TMSS)</h3>
             <p>Remote — June 2023 – Aug 2023</p>
             <ul>
-                <li>Augmented <strong>3</strong> applications by refining their functionality with Python (Tkinter) and Java.</li>
-                <li>Conducted web-scraping on <strong>5</strong> websites using Python and Java to extract crucial data.</li>
-                <li>Delivered <strong>2</strong> lead-gathering platforms within a <strong>3-week</strong> timeframe.</li>
-                <li>Collaborated with clients to tailor lead-gathering websites accordingly.</li>
+                <li>Primary task: Augmenting applications with Python and Java.</li>
             </ul>
+            <button class="show-more-btn" onclick="toggleDetails('tmss-details', this)">Show More</button>
+            <div id="tmss-details" class="more-details">
+                <ul>
+                    <li>Conducted web-scraping on <strong>5</strong> websites using Python and Java.</li>
+                    <li>Delivered <strong>2</strong> lead-gathering platforms within a <strong>3-week</strong> timeframe.</li>
+                    <li>Collaborated with clients to tailor lead-gathering websites accordingly.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
