@@ -18,3 +18,4 @@ function readMore(id) {
     document.getElementById(id + '-description').innerHTML = fullText;
     document.querySelector(`button[onclick="readMore('${id}')"]`).style.display = 'none';
 }
+ 
