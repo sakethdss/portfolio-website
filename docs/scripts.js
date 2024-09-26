@@ -1,21 +1,64 @@
-function readMore(id) {
-    let fullText = '';
-    
-    if (id === 'caring') {
-        fullText = `
-            Progressing towards a model to classify over 17,000 student essays using advanced NLP and ML techniques. Evaluated unsupervised ML algorithms for pattern recognition and data analysis. Devised methods to assess essays based on a rubric with 6 criteria. Optimized data analysis and pre-processing with Python libraries, reducing redundancies by 30%.
-        `;
-    } else if (id === 'cnde') {
-        fullText = `
-            Architected 100+ web pages and revamped 3 existing dashboards to enhance user experience. Reengineered web designs into mobile layouts for the iGenie mobile application. Converted design prototypes into fully functional web pages using React. Diagnosed 4 platforms to identify issues and improved user satisfaction by 40%.
-        `;
-    } else if (id === 'tmss') {
-        fullText = `
-            Augmented 3 applications using Python (Tkinter) and Java. Conducted web scraping to extract data from 5 websites. Delivered 2 lead-gathering platforms within a 3-week timeframe. Collaborated with clients to tailor websites based on specific requirements.
-        `;
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    // Caring Machines Chart
+    const caringCtx = document.getElementById('caringChart').getContext('2d');
+    new Chart(caringCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Student Essays', 'ML Algorithms', 'Rubric Criteria', 'Redundancy Reduction'],
+            datasets: [{
+                label: 'Caring Machines Stats',
+                data: [17000, 3, 6, 30],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 
-    document.getElementById(id + '-description').innerHTML = fullText;
-    document.querySelector(`button[onclick="readMore('${id}')"]`).style.display = 'none';
-}
- 
+    // CNDE Chart
+    const cndeCtx = document.getElementById('cndeChart').getContext('2d');
+    new Chart(cndeCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Web Pages', 'Dashboards', 'Platforms Diagnosed', 'User Satisfaction', 'Mobile UI Designs', 'Prototypes Converted'],
+            datasets: [{
+                label: 'CNDE at IIT Madras Stats',
+                data: [100, 3, 4, 40, 15, 5],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40']
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // TMSS Chart
+    const tmssCtx = document.getElementById('tmssChart').getContext('2d');
+    new Chart(tmssCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Applications Augmented', 'Websites Scraped', 'Lead Platforms', 'Time (Weeks)'],
+            datasets: [{
+                label: 'Techno Media Software Solutions Stats',
+                data: [3, 5, 2, 3],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+});
